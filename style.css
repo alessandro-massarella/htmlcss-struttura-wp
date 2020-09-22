@@ -2,10 +2,59 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: monospace;
 }
 
 body {
-    background-image: url("/img/natural-pattern.png");
-    width: 800px;
-    height: 800px;
+  background-image: url("img/natural-pattern.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* per centrare l'immagine e non farla sgranare  */
+.container-radice {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.top-header {
+  background-image: url("img/natural-header.jpg");
+  background-size: cover;
+  border: solid white 10px;
+
+}
+
+.logo-natural {
+  text-align: center;
+}
+
+h2 {
+  /* font-size: 20px; */
+  color: white;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  list-style-type: none;
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+}
+
+/* metto gli elemeti della navbar in orizzontale e li centro */
+ul.navbar li {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+}
+
+/* vado a selezionare tutti gli a */
+ul.navbar li a {
+  font-family: monospace;
+  font-size: 15px;
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
 }
