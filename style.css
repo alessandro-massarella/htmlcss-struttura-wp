@@ -58,3 +58,34 @@ ul.navbar li a {
   padding: 0 10px;
   text-decoration: none;
 }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* applico il float alla classe colonna in generale */
+.colonna {
+  float: left;
+}
+
+.colonna1 {
+  width: 20%;
+}
+
+.colonna2 {
+  width: 60%;
+}
+
+.colonna3 {
+  width: 20%;
+}
+
+.box {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+
+}
