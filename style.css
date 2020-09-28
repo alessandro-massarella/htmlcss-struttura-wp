@@ -5,6 +5,12 @@
   font-family: monospace;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
   background-image: url("img/natural-pattern.png");
   background-size: cover;
@@ -87,5 +93,35 @@ ul.navbar li a {
   border-radius: 5px;
   padding: 10px;
   margin: 15px;
+}
+
+/* footer */
+.footer-bar {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+  height: 150px;
+}
+
+#testo-footer {
+  text-align: center;
+  font-style: italic;
+  color: grey;
+}
+
+.col {
+  width: 33%;
+  height: 100px;
+  float: left;
+  position: relative;
+}
+
+.logo {
+  width: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
 
 }
